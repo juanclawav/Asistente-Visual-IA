@@ -4,6 +4,10 @@ from ai_assistant.config import Config
 
 app = FastAPI(title="AI Vision")
 
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
+
 @app.post("/query/")
 async def query_image(query: str = Form(...), image: UploadFile = Form(...)):
     # Save the uploaded image
