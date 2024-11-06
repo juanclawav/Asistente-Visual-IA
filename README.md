@@ -1,9 +1,13 @@
 
 # Asistente Visual IA
 Proyecto final de Tópicos Selectos en Inteligencia Artificial
+
 Estudiante: Juan Claudio Carrasco Tapia
+
 Código: 60715
+
 Universidad Privada Boliviana
+
 ## Descripción
 Asistente de inteligencia artificial multimodal que permite a los usuarios realizar consultas mediante texto e imágenes. 
 
